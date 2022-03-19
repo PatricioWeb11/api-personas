@@ -1,7 +1,7 @@
 const Personas = require('../models/Personas');
 
 
-// agregar un nuevo cliente
+// agregar una nueva persona
 exports.nuevaPersona = async (req, res, next) => {
     const persona = new Personas(req.body);
     try {
