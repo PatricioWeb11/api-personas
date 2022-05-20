@@ -6,7 +6,7 @@ const cors = require('cors');
 
 // conectar mongo
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/restapi', {
+mongoose.connect('mongodb://localhost/usuario-jwt', {
     useNewUrlParser: true
 });
 // crear servidor
